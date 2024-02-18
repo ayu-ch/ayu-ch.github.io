@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #1F0802;
+    background-color: #00021B;
     font-family: "Anta ", sans-serif;
     
         overflow-x: hidden;
@@ -35,7 +35,7 @@ a {
         position: absolute;
         top: 300%;
         height: 100%;
-        background: #A0CD60;
+        background: #E51376;
         width: 100%;
     }
     
@@ -44,15 +44,15 @@ a {
         font-weight: 700;
         padding-left: 2rem;
         color: transparent;
-        -webkit-text-stroke-color: #38184C;
-        -webkit-text-stroke-width: 0.2rem;
+        -webkit-text-stroke-color: #ff9dcb;
+        -webkit-text-stroke-width: 0.1rem;
     }
 
     .container4 .feedback-box .inputbox input {
-        background-color: #A0CD60;
-        color: #1F0802;
+        background-color: #00021B;
+        color: #ff9dcb;
         padding: 0.5rem;
-        border: 0.15rem dashed #1F0802;
+        border: 0.15rem dashed #E51376;
         border-radius: 0.3rem;
         width: 100%;
         font-weight: 700;
@@ -71,7 +71,7 @@ a {
     
     .container4 .feedback-box .inputbox {
         padding-right: 1rem;
-        color: #1F0802;
+        color: #00021B;
         display: relative;
         width: 20rem;
         font-weight: 700;
@@ -87,9 +87,9 @@ a {
 
     button{
         font-weight: 600;
-        background-color: #1F0802;
+        background-color: #00021B;
         border: transparent;
-        color: #A0CD60;
+        color: #E51376;
         border-radius: 0.5rem;
         padding: 0.5rem 3rem;
         
@@ -105,9 +105,9 @@ a {
     height: 4rem;
     display: flex;
     position: fixed;
-    z-index: 99;
+    z-index: 1000;
     justify-content: space-between;
-    background: #CEF09D;
+    background: #182146;
     animation: slide-down 1s;
     border-radius: 1rem;
     align-items: center;
@@ -120,13 +120,13 @@ a {
     padding: 2rem;
     margin-top: 10rem;
     font-weight: 800;
-    color: #38184C;
+    color: #3C4C79;
     transition: 1s;
 }
 
 .navbar a:hover {
-    text-decoration: underline;
-    font-size: 2.2rem;
+
+    color:#FFFFFF;
 }
 
 
@@ -136,7 +136,7 @@ a {
     left: -4%;
     height: 15rem;
     width: 15rem;
-    border: dashed 0.5vh #CEF09D;
+    border: dashed 0.5vh #E51376;
     animation: slide-right 3s;
 }
 
@@ -157,8 +157,8 @@ a {
         width: 18rem;
         right: 1%;
         top: 50%;
-        background-color: #A0CD60;
-        border: 0.5vh solid #1F0802;
+        background-color: #ff9dcb;
+        border: 0.5vh solid #00021B;
         border-radius: 15rem;
     }
 }
@@ -169,8 +169,8 @@ a {
     width: 10rem;
     right: 1%;
     top: 45%;
-    background-color: #A0CD60;
-    border: 0.5vh solid #1F0802;
+    background-color: #ff9dcb;
+    border: 0.5vh solid #00021B;
     border-radius: 15rem;
 }
 }
@@ -190,7 +190,7 @@ a {
     color: transparent;
     font-size: 4rem;
     font-weight: 900;
-    -webkit-text-stroke-color: #CEF09D;
+    -webkit-text-stroke-color: #E51376;
     -webkit-text-stroke-width: 0.05rem;
     animation: slide-down 2.5s;
 }
@@ -215,7 +215,7 @@ a {
     color: transparent;
     font-size: 4rem;
     font-weight: 900;
-    -webkit-text-stroke-color: #CEF09D;
+    -webkit-text-stroke-color: #E51376;
     -webkit-text-stroke-width: 0.05rem;
     animation: slide-right 3s;
 
@@ -239,7 +239,7 @@ a {
     color: transparent;
     font-size: 8rem;
     font-weight: 900;
-    -webkit-text-stroke-color: #CEF09D;
+    -webkit-text-stroke-color: #E51376;
     -webkit-text-stroke-width: 0.05rem;
     animation: slide-up 3s;
 
@@ -253,7 +253,7 @@ a {
     left: 25%;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #A0CD60;
+    color: #E51376;
     animation: slide-up 2.5s;
 }
 
@@ -266,7 +266,7 @@ a {
         padding-right: 0%;
         font-size: 1rem;
         font-weight: 600;
-        color: #A0CD60;
+        color: #E51376;
         animation: slide-up 2.5s;
     }
 
@@ -276,7 +276,7 @@ a {
         left: 2%;
         font-size: 6rem;
         font-weight: 900;
-        color: #A0CD60;
+        color: #E51376;
         animation: slide-right 4s;
     }
 
@@ -290,18 +290,16 @@ a {
     transition: 0.3s;
 }
 
-.random:hover {
-    color: #CEF09D;
 
-}
 
 .main-name {
+    
     position: fixed;
     top: 15%;
     left: 2%;
     font-size: 8rem;
     font-weight: 900;
-    color: #A0CD60;
+    color: #E51376;
     animation: slide-right 4s;
 }
 
@@ -309,24 +307,24 @@ a {
     position: absolute;
     top: 100%;
     height: 100%;
-    background: #A0CD60;
+    background: #00021B;
     width: 100%;
 }
 
 .container2 p {
-    font-family: 'Fira Code';
+    
     font-size: 5rem;
     font-weight: 900;
     padding-left: 2rem;
     color: transparent;
-    -webkit-text-stroke-color: #38184C;
-    -webkit-text-stroke-width: 0.2rem;
+    -webkit-text-stroke-color: #ff9dcb;
+    -webkit-text-stroke-width: 0.1rem;
 }
 
 /* @media screen and (max-width:1350px) {
     .code{
         font-family: 'Fira Code';
-        background-color: #1F0802;
+        background-color: #00021B;
         position: absolute;
         top: 55%;
         font-size: 0.4rem;
@@ -338,13 +336,13 @@ a {
         text-align: justify;
         right: 5%;
         border-radius: 2rem;
-        color: #A0CD60;
+        color: #E51376;
     }
 }  */
 
 @media screen and (min-width:1420px) {
     .container2 .intro {
-        color: #1F0802;
+        color: #ff9dcb;
         font-size: 2.5rem;
         padding: 6rem;
         font-weight: 700;
@@ -356,7 +354,7 @@ a {
 
 @media screen and (max-width:1419px) and (min-width:836px) {
     .container2 .intro {
-        color: #1F0802;
+        color: #ff9dcb;
         font-size: 2rem;
         padding: 6rem;
         font-weight: 700;
@@ -368,7 +366,7 @@ a {
 
 @media screen and (min-width:565px) and (max-width:835px) {
     .container2 .intro {
-        color: #1F0802;
+        color: #ff9dcb;
         font-size: 1.5rem;
         padding: 6rem;
         font-weight: 700;
@@ -380,7 +378,7 @@ a {
 
 @media screen and (max-width:565px){
     .container2 .intro {
-        color: #1F0802;
+        color: #ff9dcb;
         font-size: 1.2rem;
         padding: 3rem;
         font-weight: 700;
@@ -389,19 +387,19 @@ a {
         top: 17%;
     }
     .container2 p{
-        font-family: 'Fira Code';
+        
         font-size: 3rem;
         font-weight: 600;
         padding-left: 2rem;
         color: transparent;
-        -webkit-text-stroke-color: #38184C;
-        -webkit-text-stroke-width: 0.09rem;
+        -webkit-text-stroke-color: #ff9dcb;
+        -webkit-text-stroke-width: 0.1rem;
     }
 }
 
 .code{
     font-family: 'Fira Code';
-    background-color: #1F0802;
+    background-color: #182146;
     position: absolute;
     top: 55%;
     font-size: 0.7rem;
@@ -414,18 +412,18 @@ a {
     text-align: justify;
     right: 3%;
     border-radius: 2rem;
-    color: #A0CD60;
+    color: #3C4C79;
 }
 
 .intro span {
-    color: #5d2b7c;
+    color: #E51376;
 }
 
 .container3 {
     position: absolute;
     top: 200%;
     height: 100%;
-    background: #1F0802;
+    background: #00021B;
     width: 100%;
 }
 @media screen and  (min-width:751px){
@@ -437,8 +435,8 @@ a {
     color: transparent;
     font-size: 8rem;
     font-weight: 900;
-    -webkit-text-stroke-color: #CEF09D;
-    -webkit-text-stroke-width: 0.05rem;
+    -webkit-text-stroke-color: #ff9dcb;
+    -webkit-text-stroke-width: 0.1rem;
     animation: slide-up 3s;
 }
 
@@ -455,16 +453,16 @@ a {
     height: 20rem;
     width: 15rem;
     border-radius: 2rem;
-    border: dashed 0.5vh #A0CD60;
+    border: dashed 0.5vh #E51376;
     transition: 1s ease-out;
-    color: #A0CD60;
+    color: #E51376;
     font-size: 2rem;
     text-align: center;
     font-weight: 700;
 }
 
 .project:hover {
-    background: #A0CD60;
+    background: #E51376;
     color: #5d2b7c;
     height: 22rem;
     width: 17rem;
@@ -472,7 +470,7 @@ a {
 }
 
 .project h5 {
-    color: #1F0802;
+    color: #00021B;
     padding: 1rem;
 } */
 }
@@ -484,8 +482,8 @@ a {
         color: transparent;
         font-size: 3rem;
         font-weight: 900;
-        -webkit-text-stroke-color: #CEF09D;
-        -webkit-text-stroke-width: 0.05rem;
+        -webkit-text-stroke-color: #ff9dcb;
+        -webkit-text-stroke-width: 0.1rem;
         animation: slide-up 3s;
     }
     
@@ -499,9 +497,9 @@ a {
         width: 90%;
         /* margin: 0 auto 2rem; */
         border-radius: 2rem;
-        /* border: dashed 0.5vh #A0CD60; */
+        /* border: dashed 0.5vh #E51376; */
         transition: 1s ease-out;
-        color: #A0CD60;
+        color: #E51376;
         font-size: 1.5rem; 
         text-align: center;
         font-weight: 700;
@@ -514,13 +512,13 @@ a {
     }
     
     .container3 .project-grid .project:hover {
-        background: #A0CD60;
+        background: #E51376;
         color: #5d2b7c;
         
     }
     
     .container3 .project-grid .project h5 {
-        color: #1F0802;
+        color: #00021B;
         padding: 1rem;
     }
 }
@@ -530,7 +528,7 @@ a {
     position: absolute;
     top: 300%;
     height: 100%;
-    background: #A0CD60;
+    background: #00021B;
     width: 100%;
 }
 
@@ -539,15 +537,15 @@ a {
     font-weight: 700;
     padding-left: 2rem;
     color: transparent;
-    -webkit-text-stroke-color: #38184C;
-    -webkit-text-stroke-width: 0.2rem;
+    -webkit-text-stroke-color: #ff9dcb;
+    -webkit-text-stroke-width: 0.1rem;
 }
 
 .input {
-    background-color: #A0CD60;
-    color: #1F0802;
+    background-color: #00021B;
+    color: #ff9dcb;
     padding: 0.5rem;
-    border: 0.15rem dashed #1F0802;
+    border: 0.15rem dashed #E51376;
     border-radius: 0.3rem;
     width: 100%;
     font-weight: 700;
@@ -561,11 +559,11 @@ a {
     align-items: center;
     flex-direction: column;
     gap: 3rem;
-
+    overflow: wrap;
 }
 
 .inputbox {
-    color: #1F0802;
+    color: #00021B;
     display: relative;
     width: 40rem;
     font-weight: 700;
@@ -573,6 +571,7 @@ a {
 }
 
 .inputbox span {
+    color: #ff9dcb;
     position: absolute;
     padding: 0.5rem;
     pointer-events: none;
@@ -584,7 +583,7 @@ a {
     width: 100%;
     height: 20%;
     top: 80%;
-    background-color: #CEF09D;
+    background-color: #3C4C79;
 
 
 }
@@ -602,15 +601,17 @@ a {
 
 button{
     font-weight: 600;
-    background-color: #1F0802;
+    background-color: #ff9dcb;
     border: transparent;
-    color: #A0CD60;
+    color: #E51376;
     border-radius: 0.5rem;
     padding: 0.5rem 3rem;
     
 }
 button:hover{
     cursor: pointer;
+    color: #ff9dcb;
+    background-color: #E51376;
 }
 
 .row{
@@ -628,17 +629,18 @@ button:hover{
     margin: 3rem;
     border-radius: 3rem;
     max-width: 30rem;
-    border: dashed 0.5vh #A0CD60;
+    border: dashed 0.5vh #ff9dcb;
     transition: 1s ease-out;
-    color: #A0CD60;
+    color: #E51376;
     font-size: 2rem;
     text-align: center;
     font-weight: 700;
+    z-index: 999;
 }
 
 .card:hover{
-    background: #A0CD60;
-    color: #5d2b7c;
+    background: #ff9dcb;
+    color: #E51376;
 }
 .card h4{
     padding-bottom: -2rem;
@@ -646,7 +648,7 @@ button:hover{
     margin-bottom: 0;
 }
 .card h5{
-    color: #1F0802;
+    color: #00021B;
     padding: 1rem;
 }
 
