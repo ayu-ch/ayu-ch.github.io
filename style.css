@@ -8,10 +8,10 @@ html {
 body {
     background-color: #00021B;
     font-family: "Anta ", sans-serif;
-    
-        overflow-x: hidden;
-        width: 100%;
-    
+
+    overflow-x: hidden;
+    width: 100%;
+
 }
 
 .anta-regular {
@@ -38,8 +38,8 @@ a {
         background: #E51376;
         width: 100%;
     }
-    
-    .container4 p{
+
+    .container4 p {
         font-size: 2rem;
         font-weight: 700;
         padding-left: 2rem;
@@ -59,25 +59,25 @@ a {
         font-size: 1rem;
         outline: none;
     }
-    
+
     .feedback-box {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         gap: 3rem;
-    
+
     }
-    
+
     .container4 .feedback-box .inputbox {
         padding-right: 1rem;
         color: #00021B;
         display: relative;
         width: 20rem;
         font-weight: 700;
-    
+
     }
-    
+
     .inputbox span {
         position: absolute;
         padding: 0.5rem;
@@ -85,19 +85,20 @@ a {
         transition: 0.5s;
     }
 
-    button{
+    button {
         font-weight: 600;
         background-color: #00021B;
         border: transparent;
         color: #E51376;
         border-radius: 0.5rem;
         padding: 0.5rem 3rem;
-        
+
     }
-    button:hover{
+
+    button:hover {
         cursor: pointer;
     }
-    
+
 
 }
 
@@ -126,7 +127,7 @@ a {
 
 .navbar a:hover {
 
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -145,10 +146,12 @@ a {
     top: 15%;
     left: -30%;
     transform: rotate(-30deg);
-    opacity:15%;
+    opacity: 15%;
     animation: slide-left 1s;
     font-size: 5rem;
-}/*  i dont want this to be there on phone screen anyways */
+}
+
+/*  i dont want this to be there on phone screen anyways */
 
 @media screen and (min-width: 1257px) {
     #box2 {
@@ -162,22 +165,23 @@ a {
         border-radius: 15rem;
     }
 }
-@media screen and (max-width:1256px) and (min-width:830px){
-#box2 {
-    position: absolute;
-    height: 10rem;
-    width: 10rem;
-    right: 1%;
-    top: 45%;
-    background-color: #ff9dcb;
-    border: 0.5vh solid #00021B;
-    border-radius: 15rem;
-}
+
+@media screen and (max-width:1256px) and (min-width:830px) {
+    #box2 {
+        position: absolute;
+        height: 10rem;
+        width: 10rem;
+        right: 1%;
+        top: 45%;
+        background-color: #ff9dcb;
+        border: 0.5vh solid #00021B;
+        border-radius: 15rem;
+    }
 }
 
-@media screen and (max-width:829px){
-    #box2{
-        display:none;
+@media screen and (max-width:829px) {
+    #box2 {
+        display: none;
     }
 }
 
@@ -225,6 +229,7 @@ a {
     .random4 {
         display: none;
     }
+
     #box3 {
         display: none;
     }
@@ -280,7 +285,7 @@ a {
         animation: slide-right 4s;
     }
 
-    .random1{
+    .random1 {
         display: none;
     }
 }
@@ -293,7 +298,7 @@ a {
 
 
 .main-name {
-    
+
     position: fixed;
     top: 15%;
     left: 2%;
@@ -312,7 +317,7 @@ a {
 }
 
 .container2 p {
-    
+
     font-size: 5rem;
     font-weight: 900;
     padding-left: 2rem;
@@ -376,7 +381,7 @@ a {
     }
 }
 
-@media screen and (max-width:565px){
+@media screen and (max-width:565px) {
     .container2 .intro {
         color: #ff9dcb;
         font-size: 1.2rem;
@@ -386,8 +391,9 @@ a {
         position: absolute;
         top: 17%;
     }
-    .container2 p{
-        
+
+    .container2 p {
+
         font-size: 3rem;
         font-weight: 600;
         padding-left: 2rem;
@@ -397,7 +403,7 @@ a {
     }
 }
 
-.code{
+.code {
     font-family: 'Fira Code';
     background-color: #182146;
     position: absolute;
@@ -426,21 +432,22 @@ a {
     background: #00021B;
     width: 100%;
 }
-@media screen and  (min-width:751px){
-.container3 p {
-    position: absolute;
-    top: -15%;
-    right: 3%;
 
-    color: transparent;
-    font-size: 8rem;
-    font-weight: 900;
-    -webkit-text-stroke-color: #ff9dcb;
-    -webkit-text-stroke-width: 0.1rem;
-    animation: slide-up 3s;
-}
+@media screen and (min-width:751px) {
+    .container3 p {
+        position: absolute;
+        top: -15%;
+        right: 3%;
+        padding-top: 3rem;
+        color: transparent;
+        font-size: 8rem;
+        font-weight: 900;
+        -webkit-text-stroke-color: #ff9dcb;
+        -webkit-text-stroke-width: 0.1rem;
+        animation: slide-up 3s;
+    }
 
-/* .project-grid {
+    /* .project-grid {
 
     padding-top: 20em;
     display: flex;
@@ -474,6 +481,7 @@ a {
     padding: 1rem;
 } */
 }
+
 @media screen and (max-width: 750px) {
     .container3 p {
         position: absolute;
@@ -486,37 +494,37 @@ a {
         -webkit-text-stroke-width: 0.1rem;
         animation: slide-up 3s;
     }
-    
+
     .container3 .project-grid {
-        padding-top: 8rem; 
-        display: block; 
+        padding-top: 8rem;
+        display: block;
     }
-    
+
     .container3 .project-grid .project {
-        height: auto; 
+        height: auto;
         width: 90%;
         /* margin: 0 auto 2rem; */
         border-radius: 2rem;
         /* border: dashed 0.5vh #E51376; */
         transition: 1s ease-out;
         color: #E51376;
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
         text-align: center;
         font-weight: 700;
     }
-    
+
     .container3 .project-grid .project a {
-        display: block; 
-        height: 100%; 
-        width: 100%; 
+        display: block;
+        height: 100%;
+        width: 100%;
     }
-    
+
     .container3 .project-grid .project:hover {
         background: #E51376;
         color: #5d2b7c;
-        
+
     }
-    
+
     .container3 .project-grid .project h5 {
         color: #00021B;
         padding: 1rem;
@@ -597,35 +605,42 @@ a {
 .links img {
     padding-top: 3rem;
     padding-inline: 1rem;
+    border-radius: 1rem;
 }
 
-button{
+.links img:hover {
+    -webkit-filter: drop-shadow(0.15rem 0.15rem  #ff9dcb80);
+    filter: drop-shadow(0.15rem 0.15rem  #ff9dcb88);
+}
+
+button {
     font-weight: 600;
     background-color: #ff9dcb;
     border: transparent;
     color: #E51376;
     border-radius: 0.5rem;
     padding: 0.5rem 3rem;
-    
+
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
     color: #ff9dcb;
     background-color: #E51376;
 }
 
-.row{
-    padding-top: 10rem;
+.row {
+    padding-top: 15rem;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     position: relative;
     flex: 1;
-    height: 20rem;
+    height: 30rem;
     margin: 3rem;
     border-radius: 3rem;
     max-width: 30rem;
@@ -638,51 +653,74 @@ button:hover{
     z-index: 999;
 }
 
-.card:hover{
+.card:hover {
     background: #ff9dcb;
     color: #E51376;
 }
-.card h4{
+
+.card h4 {
     padding-bottom: -2rem;
     margin-top: 1.5rem;
     margin-bottom: 0;
 }
-.card h5{
-    color: #00021B;
-    padding: 1rem;
+
+.card h5 {
+    color: #ff9dcb;
+    padding: 7rem 1rem;
+    transition: 1s ease-out;
 }
 
-@media screen and (min-width:500px)and(max-width:950px){
-    
-    .card{
+.card:hover h5 {
+
+    color: #E51376;
+
+}
+
+@media screen and (min-width:500px)and(max-width:950px) {
+    .row {
+        padding-top: 10rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
         flex: 100%;
         max-width: 20rem;
         height: 10rem;
 
     }
-    .card h5{
+
+    .card h5 {
+        color: #ff9dcb;
         font-size: 0.8rem;
     }
 }
 
-@media screen and (max-width:499px){
-    .row{
+@media screen and (max-width:499px) {
+    .row {
         padding-top: 2rem;
         width: 100%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .card{
+
+    .card {
         flex: 100%;
         max-width: 20rem;
         height: 9rem;
 
     }
-    .card h5{
+
+    .card h5 {
+        color: #ff9dcb;
         font-size: 0.6rem;
+        padding: 1rem;
     }
 }
+
 
 @keyframes slide-right {
     from {
