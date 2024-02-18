@@ -1,11 +1,17 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    max-width: 100%;
+    margin: 0;
 }
 
 body {
     background-color: #1F0802;
     font-family: "Anta ", sans-serif;
+    
+        overflow-x: hidden;
+        width: 100%;
+    
 }
 
 .anta-regular {
@@ -111,7 +117,7 @@ a {
 
 
 #box1 {
-    position: fixed;
+    position: absolute;
     top: 27%;
     left: -4%;
     height: 15rem;
@@ -205,6 +211,9 @@ a {
     .random4 {
         display: none;
     }
+    #box3 {
+        display: none;
+    }
 }
 
 .random4 {
@@ -239,6 +248,8 @@ a {
         position: absolute;
         top: 65%;
         left: 35%;
+        width: 15%;
+        padding-right: 0%;
         font-size: 1rem;
         font-weight: 600;
         color: #A0CD60;
@@ -253,6 +264,10 @@ a {
         font-weight: 900;
         color: #A0CD60;
         animation: slide-right 4s;
+    }
+
+    .random1{
+        display: none;
     }
 }
 
@@ -285,7 +300,7 @@ a {
 }
 
 .container2 p {
-    font-family: 'Fira Code';font-size: 22px;
+    font-family: 'Fira Code';
     font-size: 5rem;
     font-weight: 900;
     padding-left: 2rem;
@@ -295,11 +310,12 @@ a {
 }
 
 /* @media screen and (max-width:1350px) {
-    .container2 pre{
+    .code{
+        font-family: 'Fira Code';
         background-color: #1F0802;
         position: absolute;
         top: 55%;
-        font-size: 0.7rem;
+        font-size: 0.4rem;
         font-weight: 700;
         left: 5%;
         padding: 3rem;
@@ -310,7 +326,7 @@ a {
         border-radius: 2rem;
         color: #A0CD60;
     }
-} */
+}  */
 
 @media screen and (min-width:1420px) {
     .container2 .intro {
@@ -359,7 +375,7 @@ a {
         top: 17%;
     }
     .container2 p{
-        font-family: 'Fira Code';font-size: 22px;
+        font-family: 'Fira Code';
         font-size: 3rem;
         font-weight: 600;
         padding-left: 2rem;
@@ -369,8 +385,8 @@ a {
     }
 }
 
-.container2 pre {
-    font-family: 'Fira Code';font-size: 22px;
+.code{
+    font-family: 'Fira Code';
     background-color: #1F0802;
     position: absolute;
     top: 55%;
@@ -466,7 +482,7 @@ a {
     .container3 .project-grid .project {
         height: auto; 
         width: 90%;
-        margin: 0 auto 2rem;
+        /* margin: 0 auto 2rem; */
         border-radius: 2rem;
         /* border: dashed 0.5vh #A0CD60; */
         transition: 1s ease-out;
