@@ -652,7 +652,8 @@ button:hover{
     padding: 1rem;
 }
 
-@media screen and (max-width:950px){
+@media screen and (min-width:500px)and(max-width:950px){
+    
     .card{
         flex: 100%;
         max-width: 20rem;
@@ -661,6 +662,25 @@ button:hover{
     }
     .card h5{
         font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:499px){
+    .row{
+        padding-top: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        flex: 100%;
+        max-width: 20rem;
+        height: 9rem;
+
+    }
+    .card h5{
+        font-size: 0.6rem;
     }
 }
 
