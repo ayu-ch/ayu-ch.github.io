@@ -40,7 +40,7 @@ a {
     }
     
     .container4 p{
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 700;
         padding-left: 2rem;
         color: transparent;
@@ -84,6 +84,20 @@ a {
         pointer-events: none;
         transition: 0.5s;
     }
+
+    button{
+        font-weight: 600;
+        background-color: #1F0802;
+        border: transparent;
+        color: #A0CD60;
+        border-radius: 0.5rem;
+        padding: 0.5rem 3rem;
+        
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    
 
 }
 
@@ -428,7 +442,7 @@ a {
     animation: slide-up 3s;
 }
 
-.project-grid {
+/* .project-grid {
 
     padding-top: 20em;
     display: flex;
@@ -460,7 +474,7 @@ a {
 .project h5 {
     color: #1F0802;
     padding: 1rem;
-}
+} */
 }
 @media screen and (max-width: 750px) {
     .container3 p {
@@ -521,8 +535,8 @@ a {
 }
 
 .container4 p {
-    font-size: 5rem;
-    font-weight: 900;
+    font-size: 4rem;
+    font-weight: 700;
     padding-left: 2rem;
     color: transparent;
     -webkit-text-stroke-color: #38184C;
@@ -599,8 +613,54 @@ button:hover{
     cursor: pointer;
 }
 
+.row{
+    padding-top: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.card{
+    position: relative;
+    flex: 1;
+    height: 20rem;
+    margin: 3rem;
+    border-radius: 3rem;
+    max-width: 30rem;
+    border: dashed 0.5vh #A0CD60;
+    transition: 1s ease-out;
+    color: #A0CD60;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
 
+.card:hover{
+    background: #A0CD60;
+    color: #5d2b7c;
+}
+.card h4{
+    padding-bottom: -2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+.card h5{
+    color: #1F0802;
+    padding: 1rem;
+}
+
+@media screen and (max-width:950px){
+    .card{
+        flex: 100%;
+        max-width: 20rem;
+        height: 10rem;
+
+    }
+    .card h5{
+        font-size: 0.8rem;
+    }
+}
 
 @keyframes slide-right {
     from {
