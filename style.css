@@ -331,7 +331,7 @@ a {
 @media screen and (min-width:1420px) {
     .container2 .intro {
         color: #1F0802;
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding: 6rem;
         font-weight: 700;
         text-align: center;
@@ -390,14 +390,15 @@ a {
     background-color: #1F0802;
     position: absolute;
     top: 55%;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 700;
-    left: 5%;
-    padding: 5rem;
+    left: 3%;
+    padding-bottom: 8rem;
+    padding-top: 2rem;
     white-space: pre-wrap;
     word-wrap: break-word;
     text-align: justify;
-    right: 5%;
+    right: 3%;
     border-radius: 2rem;
     color: #A0CD60;
 }
@@ -585,7 +586,18 @@ a {
     padding-inline: 1rem;
 }
 
-
+button{
+    font-weight: 600;
+    background-color: #1F0802;
+    border: transparent;
+    color: #A0CD60;
+    border-radius: 0.5rem;
+    padding: 0.5rem 3rem;
+    
+}
+button:hover{
+    cursor: pointer;
+}
 
 
 
