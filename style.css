@@ -31,7 +31,7 @@ a {
         display: none;
     }
 
-    .container4 {
+    .page4 {
         position: absolute;
         top: 300%;
         height: 100%;
@@ -39,7 +39,7 @@ a {
         width: 100%;
     }
 
-    .container4 p {
+    .page4 p {
         font-size: 2rem;
         font-weight: 700;
         padding-left: 2rem;
@@ -48,7 +48,7 @@ a {
         -webkit-text-stroke-width: 0.1rem;
     }
 
-    .container4 .feedback-box .inputbox input {
+    .page4 .feedback-box .inputbox input {
         background-color: #00021B;
         color: #ff9dcb;
         padding: 0.5rem;
@@ -69,7 +69,7 @@ a {
 
     }
 
-    .container4 .feedback-box .inputbox {
+    .page4 .feedback-box .inputbox {
         padding-right: 1rem;
         color: #00021B;
         display: relative;
@@ -186,7 +186,7 @@ a {
 }
 
 
-.random1 {
+.floating-text1 {
     position: fixed;
     top: -3%;
     right: 27%;
@@ -199,7 +199,7 @@ a {
     animation: slide-down 2.5s;
 }
 
-/* .random2 {
+/* .floating-text2 {
     position: absolute;
     top: 2%;
     right: 23%;
@@ -211,7 +211,7 @@ a {
     -webkit-text-stroke-width: 0.05rem;
 } */
 
-.random3 {
+.floating-text3 {
     position: fixed;
     top: 77%;
     left: -3%;
@@ -226,7 +226,7 @@ a {
 }
 
 @media (max-width:900px) {
-    .random4 {
+    .floating-text4 {
         display: none;
     }
 
@@ -235,7 +235,7 @@ a {
     }
 }
 
-.random4 {
+.floating-text4 {
 
     position: fixed;
     top: 60%;
@@ -252,7 +252,7 @@ a {
 
 
 
-.container1 pre {
+.page1 pre {
     position: fixed;
     top: 50%;
     left: 25%;
@@ -263,7 +263,7 @@ a {
 }
 
 @media (max-width:500px) {
-    .container1 pre {
+    .page1 pre {
         position: absolute;
         top: 65%;
         left: 35%;
@@ -275,7 +275,7 @@ a {
         animation: slide-up 2.5s;
     }
 
-    .container1 .main-name {
+    .page1 .main-name {
         position: absolute;
         top: 20%;
         left: 2%;
@@ -285,13 +285,13 @@ a {
         animation: slide-right 4s;
     }
 
-    .random1 {
+    .floating-text1 {
         display: none;
     }
 }
 
 
-.random {
+.floating-text {
     transition: 0.3s;
 }
 
@@ -308,7 +308,7 @@ a {
     animation: slide-right 4s;
 }
 
-.container2 {
+.page2 {
     position: absolute;
     top: 100%;
     height: 100%;
@@ -316,7 +316,7 @@ a {
     width: 100%;
 }
 
-.container2 p {
+.page2 p {
 
     font-size: 5rem;
     font-weight: 900;
@@ -346,7 +346,7 @@ a {
 }  */
 
 @media screen and (min-width:1420px) {
-    .container2 .intro {
+    .page2 .intro {
         color: #ff9dcb;
         font-size: 2.5rem;
         padding: 6rem;
@@ -358,7 +358,7 @@ a {
 }
 
 @media screen and (max-width:1419px) and (min-width:836px) {
-    .container2 .intro {
+    .page2 .intro {
         color: #ff9dcb;
         font-size: 2rem;
         padding: 6rem;
@@ -370,7 +370,7 @@ a {
 }
 
 @media screen and (min-width:565px) and (max-width:835px) {
-    .container2 .intro {
+    .page2 .intro {
         color: #ff9dcb;
         font-size: 1.5rem;
         padding: 6rem;
@@ -382,7 +382,7 @@ a {
 }
 
 @media screen and (max-width:565px) {
-    .container2 .intro {
+    .page2 .intro {
         color: #ff9dcb;
         font-size: 1.2rem;
         padding: 3rem;
@@ -392,7 +392,7 @@ a {
         top: 17%;
     }
 
-    .container2 p {
+    .page2 p {
 
         font-size: 3rem;
         font-weight: 600;
@@ -425,7 +425,7 @@ a {
     color: #E51376;
 }
 
-.container3 {
+.page3 {
     position: absolute;
     top: 200%;
     height: 100%;
@@ -434,7 +434,7 @@ a {
 }
 
 @media screen and (min-width:751px) {
-    .container3 p {
+    .page3 p {
         position: absolute;
         top: -15%;
         right: 3%;
@@ -483,7 +483,7 @@ a {
 }
 
 @media screen and (max-width: 750px) {
-    .container3 p {
+    .page3 p {
         position: absolute;
         top: -5%;
         right: 3%;
@@ -495,12 +495,12 @@ a {
         animation: slide-up 3s;
     }
 
-    .container3 .project-grid {
+    .page3 .project-grid {
         padding-top: 8rem;
         display: block;
     }
 
-    .container3 .project-grid .project {
+    .page3 .project-grid .project {
         height: auto;
         width: 90%;
         /* margin: 0 auto 2rem; */
@@ -513,26 +513,26 @@ a {
         font-weight: 700;
     }
 
-    .container3 .project-grid .project a {
+    .page3 .project-grid .project a {
         display: block;
         height: 100%;
         width: 100%;
     }
 
-    .container3 .project-grid .project:hover {
+    .page3 .project-grid .project:hover {
         background: #E51376;
         color: #5d2b7c;
 
     }
 
-    .container3 .project-grid .project h5 {
+    .page3 .project-grid .project h5 {
         color: #00021B;
         padding: 1rem;
     }
 }
 
 
-.container4 {
+.page4 {
     position: absolute;
     top: 300%;
     height: 100%;
@@ -540,7 +540,7 @@ a {
     width: 100%;
 }
 
-.container4 p {
+.page4 p {
     font-size: 4rem;
     font-weight: 700;
     padding-left: 2rem;
@@ -666,7 +666,7 @@ button:hover {
 
 .card h5 {
     color: #ff9dcb;
-    padding: 7rem 1rem;
+    padding: 4rem 1rem;
     transition: 1s ease-out;
 }
 
