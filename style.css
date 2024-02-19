@@ -433,7 +433,7 @@ a {
     width: 100%;
 }
 
-@media screen and (min-width:751px) {
+@media screen and (min-width:951px) {
     .page3 p {
         position: absolute;
         top: -15%;
@@ -482,7 +482,7 @@ a {
 } */
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 950px) {
     .page3 p {
         position: absolute;
         top: -5%;
@@ -676,29 +676,7 @@ button:hover {
 
 }
 
-@media screen and (min-width:500px)and(max-width:950px) {
-    .row {
-        padding-top: 10rem;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .card {
-        flex: 100%;
-        max-width: 20rem;
-        height: 10rem;
-
-    }
-
-    .card h5 {
-        color: #ff9dcb;
-        font-size: 0.8rem;
-    }
-}
-
-@media screen and (max-width:499px) {
+@media screen and  (max-width:950px) {
     .row {
         padding-top: 2rem;
         width: 100%;
@@ -720,6 +698,29 @@ button:hover {
         padding: 1rem;
     }
 }
+
+/* @media screen and (max-width:499px) {
+    .row {
+        padding-top: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 100%;
+        max-width: 20rem;
+        height: 9rem;
+
+    }
+
+    .card h5 {
+        color: #ff9dcb;
+        font-size: 0.6rem;
+        padding: 1rem;
+    }
+} */
 
 
 @keyframes slide-right {
