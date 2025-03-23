@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hey,
+I am Ayush Chandekar, a sophomore at IIT Roorkee. I love exploring all sorts of things, from speedcubing and playing football to listening to music and coding sometimes:)
+I like to build cool stuff (and occasionally break some too 😉). I'm always curious to learn about new technologies and whatever piques my interest.
