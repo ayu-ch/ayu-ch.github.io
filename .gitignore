@@ -1,1 +1,5 @@
 ﻿_site
+.agents/
+.claude/
+skills-lock.json
+.sass-cache/

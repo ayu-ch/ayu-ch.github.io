@@ -1,6 +1,6 @@
 Hello there!
 
-I am Ayush, currently a sophomore at IIT Roorkee, with a passion to learn anything which comes my way. You can catch me speed cubing, playing football or headbanging to my favourite playlists. The never-ending spiral of technology and the freedom to create is what intrigues me to dive even deeper.
+I am Ayush, currently a final-year undergrad at IIT Roorkee, with a passion to learn anything which comes my way. You can catch me speed cubing, playing football or headbanging to my favourite playlists. The never-ending spiral of technology and the freedom to create is what intrigues me to dive even deeper.
 
 ---
   

@@ -1,0 +1,18 @@
+{%- assign years = include.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+<div class="post-list">
+  {%- for year in years -%}
+  <section class="year-group">
+    <h3 class="year">{{ year.name }}</h3>
+    <ul>
+      {%- for post in year.items -%}
+      <li>
+        <a class="post-row" href="{{ post.url | relative_url }}">
+          <span class="post-row-title">{{ post.title | escape }}</span>
+          <time class="post-row-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time>
+        </a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+  {%- endfor -%}
+</div>

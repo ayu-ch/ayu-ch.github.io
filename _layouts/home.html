@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="prose intro enter" style="--i: 1">
+  {{ content }}
+</div>
+
+{%- if site.posts.size > 0 %}
+<section class="writing enter" style="--i: 2">
+  <h2 class="section-label">Writing</h2>
+  {% include post-list.html posts=site.posts %}
+</section>
+{%- endif %}

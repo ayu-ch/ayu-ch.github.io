@@ -1,0 +1,19 @@
+{%- if page.series -%}
+{%- assign series_posts = site.posts | where: "series", page.series | sort: "part" -%}
+{%- if series_posts.size > 1 %}
+<nav class="series" aria-label="{{ page.series | escape }} series">
+  <p class="series-title">{{ page.series | escape }} series</p>
+  <ol start="{{ series_posts.first.part | default: 1 }}">
+    {%- for post in series_posts %}
+    <li>
+      {%- if post.url == page.url %}
+      <span aria-current="page">{{ post.title | escape }}</span>
+      {%- else %}
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ol>
+</nav>
+{%- endif %}
+{%- endif -%}
