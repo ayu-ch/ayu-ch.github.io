@@ -69,8 +69,10 @@
 
   function highlight() {
     if (!window.hljs) return;
+    // The bundled highlight.js is 10.5, which only has highlightBlock (renamed highlightElement in 10.7)
+    var highlightOne = window.hljs.highlightElement || window.hljs.highlightBlock;
     document.querySelectorAll('pre code[class*="language-"]:not(.language-mermaid)').forEach(function (block) {
-      window.hljs.highlightElement(block);
+      highlightOne.call(window.hljs, block);
     });
   }
   if (window.hljs) highlight();
