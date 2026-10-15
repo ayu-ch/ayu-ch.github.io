@@ -2,6 +2,7 @@ title: "Ayush's Blog"
 author: "Ayush Chandekar"
 description: "A garden of my own." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 url: "https://4yush.com"
+timezone: Asia/Kolkata # post dates are in IST; GitHub builds in UTC and would otherwise treat today's post as a future one
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -44,3 +45,8 @@ defaults:
 
 exclude:
   - skills-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - notebooks/
