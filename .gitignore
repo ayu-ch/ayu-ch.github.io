@@ -3,3 +3,6 @@
 .claude/
 skills-lock.json
 .sass-cache/
+.jekyll-cache/
+vendor/
+.bundle/
